@@ -33,10 +33,10 @@ body {
 #my-biodata {
   text-align: right;
 }
-#contact {
+#contactme {
   text-align: center;
 }
-#contact input {
+#contactme input {
   background-color: #aec1c2;
 }
 
@@ -87,6 +87,6 @@ div {
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(images/layout2.webp);
+  background-image: url(/images/layout2.webp);
   padding-top: 250px;
 }
