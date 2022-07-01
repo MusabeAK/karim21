@@ -22,11 +22,12 @@
     ></script>
   </head>
   <body>
+    <div id="preview">
+      <h1>Musabe Abdul Karim</h1>
+      <h2>Personal Website</h2>
+    </div>
+
     <div id="aboutMe">
-      <div id="preview">
-        <h1>Musabe Abdul Karim</h1>
-        <h2>Personal Website</h2>
-      </div>
       <div id="image-aboutMe">
         <img src="images/Karim.png" alt="Karim's Image" height="250" />
         <h2>Hey!</h2>
@@ -35,7 +36,7 @@
           Official Website
         </p>
       </div>
-      <div id="my-bio-data">
+      <div id="my-biodata">
         <h2>About Me</h2>
         <p>
           My name is Musabe Abdul Karim, born in Fort Portal, Kabarole District,
@@ -43,13 +44,14 @@
         </p>
         <p>
           Currently persuing my bachelors degree in Software Engineering at
-          Makerere University, I completed my high school from Mpanga SS in Fort
-          Portal. On the road to my destiney, am doing as much as I can to
-          become the best prototype of my self... <b>I know I WILL!</b>
+          Makerere University, I completed my high school from <br />
+          Mpanga SS in Fort Portal. On the road to my destiney, am doing as much
+          as I can to become the best prototype of my self...
+          <b>I know I WILL!</b>
         </p>
       </div>
 
-      <div id="my-education-history">
+      <div id="my-educationhistory">
         <h2>Academic Status</h2>
         <table>
           <thead>
@@ -94,32 +96,34 @@
         </a>
       </div>
 
-      <div id="contact-me">
+      <div id="contactme">
         <h2>How to Contact Me</h2>
         <h3>Fill the Form below</h3>
 
         <form action="mailto:musabeabdulkarim@gmail.com">
-          <table>
-            <tr>
-              <td><label for="name">Name: </label></td>
-              <td><input type="text" id="name" required /></td>
-            </tr>
-            <tr>
-              <td><label for="email">E-mail: </label></td>
-              <td>
-                <input
-                  type="email"
-                  id="email"
-                  placeholder="personal@example.com"
-                  required
-                />
-              </td>
-            </tr>
-            <tr>
-              <td><label for="phone-no">Phone No: </label></td>
-              <td><input type="text" id="phone-no" required /></td>
-            </tr>
-          </table>
+          <span>
+            <label for="name">Name: </label>
+            <input type="text" id="name" required /> </span
+          ><br />
+          <br />
+
+          <span>
+            <label for="email">E-mail: </label>
+            <input
+              type="email"
+              id="email"
+              placeholder="personal@example.com"
+              required
+            /> </span
+          ><br />
+          <br />
+          <span>
+            <label for="phone-no">Phone No: </label>
+            <input type="text" id="phone-no" required /> </span
+          ><br />
+          <br />
+          <hr />
+
           <button class="btn" type="submit">Contact Me</button>
         </form>
       </div>

@@ -1,5 +1,4 @@
 body {
-  margin: 10px;
   padding: 10px;
 }
 
@@ -31,16 +30,23 @@ body {
   text-decoration: none;
 }
 
-#my-education-history table td {
+#my-biodata {
+  text-align: right;
+}
+#contact {
+  text-align: center;
+}
+#contact input {
+  background-color: #aec1c2;
+}
+
+#my-educationhistory table td {
   border: #11999e solid;
 }
-#my-education-history table th {
+#my-educationhistory table th {
   border: #305c5e solid;
 }
 
-#aboutMe div {
-  margin-top: 2rem;
-}
 body h1 {
   color: #126666;
 }
@@ -51,7 +57,7 @@ body h2 {
 img {
   height: 200px;
   width: 200px;
-  border-radius: 100px;
+  border-radius: 200px;
 }
 footer {
   background-color: gray;
@@ -70,4 +76,18 @@ div#image-aboutMe {
 
 .navbar a:hover {
   color: white;
+}
+#preview {
+  height: 500px;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(/images/layout2.webp);
+  padding-top: 250px;
+}
+
+
+div {
+  background-color: #a2aab3;
+  padding: 5px;
 }
