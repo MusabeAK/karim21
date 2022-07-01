@@ -1,0 +1,90 @@
+#my-bio {
+  height: 90px;
+  width: 33.33%;
+  background-color: #d6cdcd;
+  float: left;
+  position: relative;
+  margin-top: 0;
+  text-align: center;
+  padding-top: 80px;
+}
+
+#my-photo {
+  height: 90px;
+  width: 33.33%;
+  background-color: #282691;
+  float: right;
+  position: relative;
+  margin-top: 0;
+  text-align: center;
+  padding-top: 80px;
+}
+
+#my-education-history {
+  height: 100px;
+  width: 33.33%;
+  background-color: #5f5e64;
+  float: left;
+  margin-left: 33.33%;
+  text-align: center;
+  padding-top: 90px;
+}
+
+#your-hobbies {
+  height: 100px;
+  width: 33.33%;
+  background-color: #9fafe6;
+  position: relative;
+  float: left;
+  margin-left: 0;
+  text-align: center;
+  padding-top: 90px;
+}
+
+#empty {
+  height: 100px;
+  width: 33.33%;
+  background-color: white;
+  float: left;
+  text-align: center;
+  padding-top: 90px;
+}
+
+#contact-me {
+  height: 100px;
+  width: 33.33%;
+  background-color: #e7aa70;
+  float: right;
+  text-align: center;
+  padding-top: 90px;
+}
+
+#contact-me:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+#my-bio:hover {
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+#my-photo:hover {
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+#my-education-history:hover {
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+#your-hobbies:hover {
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+
+.container a {
+  color: black;
+}

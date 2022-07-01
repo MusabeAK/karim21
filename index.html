@@ -4,101 +4,31 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Karim's Personal Website</title>
-    <link rel="stylesheet" href="/css/MyWebsite.css" />
+    <title>Box Model</title>
+    <link rel="stylesheet" href="/css/box-model.css" />
   </head>
   <body>
-    <h1>My Personal Website</h1>
-    <p><a href="hobbies.html">Go to my Hobbies</a></p>
-    <div id="image-aboutMe">
-      <h2>About Me</h2>
-      <img src="images/Karim.png" alt="Karim's Image" height="250" />
-      <div id="about-me">
-        <p>
-          My name is Musabe Abdul Karim, born in Fort Portal, Kabarole District,
-          Western Region, Uganda
-        </p>
-        <p>
-          Currently persuing my bachelors degree in Software Engineering at
-          Makerere University, I completed my high school from Mpanga SS in Fort
-          Portal. On the road to my destiney, am doing as much as I can to
-          become the best prototype of my self... <b>I know I WILL!</b>
-        </p>
-      </div>
+    <div class="container">
+      <a href="aboutMe.html#my-bio-data">
+        <div class="hover-label" id="my-bio">My Bio</div>
+      </a>
+      <a href="aboutMe.html#image-aboutMe">
+        <div class="hover-label" id="my-photo">My Photo</div>
+      </a>
 
-      <div id="education-background">
-        <h2>Academic Status</h2>
-        <table border="">
-          <thead>
-            <tr>
-              <th>Period</th>
-              <th>Institution</th>
-              <th>Award</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>2008-2014</td>
-              <td>Kamengo Primary School</td>
-              <td>PLE</td>
-            </tr>
-            <tr>
-              <td>2015-2018</td>
-              <td>Mpanga SS</td>
-              <td>UCE</td>
-            </tr>
-            <tr>
-              <td>2019-2020</td>
-              <td>Mpanga SS</td>
-              <td>UACE</td>
-            </tr>
-            <tr>
-              <td>2020 to date</td>
-              <td>Makerere University</td>
-              <td>..Pending..</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-    <div>
-      <p>
-        <i><b>Click the link below to view my hobbies and interests</b></i>
-      </p>
+      <a href="aboutMe.html#my-education-history">
+        <div class="hover-label" id="my-education-history">
+          My Education History
+        </div>
+      </a>
+      <div id="empty"></div>
 
       <a href="hobbies.html">
-        <p>Hobbies and Interests</p>
+        <div class="hover-label" id="your-hobbies">My Hobbies</div>
       </a>
-    </div>
-
-    <div id="form">
-      <h2>Form</h2>
-      <h3>Fill and Submit the Form below</h3>
-
-      <form action="mailto: musabeabdulkarim@gmail.com">
-        <table>
-          <tr>
-            <td><label for="name">Name: </label></td>
-            <td><input type="text" id="name" required /></td>
-          </tr>
-          <tr>
-            <td><label for="email">E-mail: </label></td>
-            <td>
-              <input
-                type="email"
-                id="email"
-                placeholder="personal@example.com"
-                required
-              />
-            </td>
-          </tr>
-          <tr>
-            <td><label for="phone-no">Phone No: </label></td>
-            <td><input type="text" id="phone-no" required /></td>
-          </tr>
-        </table>
-        <button class="btn" type="submit">Click to Submit</button>
-      </form>
+      <a href="aboutMe.html#contact-me">
+        <div class="hover-label" id="contact-me">Contact Me</div>
+      </a>
     </div>
   </body>
 </html>
