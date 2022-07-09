@@ -87,7 +87,7 @@ div {
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(images/layout2.png);
+  background-image: url(![]images/layout2.png);
   padding-top: 250px;
   z-index: 1;
 }
